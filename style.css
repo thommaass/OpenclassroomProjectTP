@@ -1,0 +1,636 @@
+html
+{
+font-family: 'Raleway', sans-serif;
+padding: 40px;
+}
+
+header
+{
+position: relative;
+}
+
+.navm
+{
+display: flex;
+justify-content: space-between;
+}
+
+ul
+{
+display: flex;
+padding: 0;
+list-style-type: none;
+}
+
+.navm a:hover
+{
+border-top: 4px solid #0165FC;
+border-top-width:1.5em;
+padding-top: 61px;
+color: #0165FC;
+}
+
+.lii1 a:hover
+{
+color: #0165FC;
+}
+
+#li2 a:hover
+{
+color: #0165FC;
+}
+
+ul li
+{
+margin: 0 20px;
+font-size: 22px;
+}
+
+nav img
+{
+width: 150px;
+height:auto.
+}
+
+#li1
+{
+color:#303030; 
+}
+
+#li2
+{
+color:#303030;
+}
+
+#li3
+{
+color:#0165FC;
+font-weight:bold;
+}
+
+.titre
+{
+font-weight: bold;
+font-size: 1.4em;
+}
+
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+a:visited
+{
+color: none;
+text-decoration:none;
+}
+
+.b33
+{
+display: none;
+}
+
+.b333
+{
+display:none;
+}
+
+.fa-search
+{
+display:none;
+}
+
+.i
+{
+padding-bottom:0.9%;
+margin-right: 10px;
+}
+
+.info
+{
+align-items: center;
+text-align: left;
+margin-top: 15px;
+margin-bottom: 15px;
+display: flex;
+flex-flow: wrap;
+}
+
+.info p
+{
+margin-top:0%;
+}
+
+.fa-info
+{
+color: #0065FC;
+position: absolute;
+margin-left: 0%;
+}
+
+.titreg
+{
+width: 100%;
+font-weight: bold;
+font-size: 1.4em;
+margin-left: 2%;
+}
+
+.tbar
+{
+display: flex;
+flex-flow: wrap;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.filtre
+{
+display: flex;
+flex-flow: wrap;
+align-items: center;
+margin-bottom: 2%
+}
+
+.filtre h2
+{
+padding: 5%;
+}
+
+.filtre1
+{
+margin-top: 0px;
+padding-top: 0px;
+}
+
+.filtres2345
+{
+display:flex;
+align-items: center;
+border: solid #D9D9D9;
+height: 2.5em;
+border-radius: 31px;
+margin-left: 2%;
+}
+
+.filtre2
+{
+width:220px;
+}
+
+.filtre3
+{
+width: 180px;
+}
+
+.filtre4
+{
+width: 220px;
+}
+
+.filtre5
+{
+width: 300px;
+}
+
+.bargeneral
+{
+display: flex;
+flex-flow: wrap;
+height: 50px;
+}
+.bar1
+{
+background: #F2F2F2;
+border-bottom-left-radius: 16px;
+border-top-left-radius: 16px;
+width:3.3%;
+}
+
+.bar2
+{
+background: #FFFFFF;
+width:15%;
+}
+
+.srch
+{
+width:273px;
+margin: 0px;
+border-color:#FFFFFF;
+font-weight: bold;
+font-size: 1.25em;
+}
+
+.bar3
+{
+background: #0065FC;
+border-bottom-right-radius: 16px;
+border-top-right-radius: 16px;
+width:150px;
+align-items: center;
+font-size:1.35em;
+color:#FFFFFF;
+margin: auto;
+}
+
+#hebergements
+{
+display: flex;
+justify-content: space-between;
+}
+
+.hebergements__ville
+{
+background: #F2F2F2;
+display: flex;
+flex-flow: wrap;
+justify-content: space-around;
+width: 68%;
+border-radius: 31px;
+height: auto;
+}
+
+.card
+{
+background-color: white;
+border-radius: 31px;
+-webkit-box-shadow: 1px 1px 5px 0px black;
+-moz-box-shadow: 1px 1px 5px 0px black;
+box-shadow: 1px 1px 5px 0px black;
+border: solid 6px white;
+}
+
+.logement
+{
+width: 100%;
+/*    height: 28% ;*/
+height:100%;
+}
+
+.logementa
+{
+width: 28%;
+height: 28%;
+}
+
+.hebergements__populaires
+{
+background: #F2F2F2;
+width: 30%;
+border-radius: 31px;    
+flex-flow: wrap;
+margin-top:0px;
+}
+
+.aju
+{
+display: flex;
+justify-content: space-around;
+}
+
+.logementpop
+{
+width: 90%;
+height: 24.5%;
+margin: 4%;
+display: flex;
+flex-flow: wrap;
+max-height: 240px;
+}
+
+.logementapop
+{
+width: 90%;
+height:auto;
+}
+
+.logementpop h2
+{
+width: 100%;
+margin-left: 5%;
+margin-top: 0%;
+padding-top: 0%;
+}
+
+.logementpop p
+{
+width: 100%;
+margin-left: 5%;
+padding-top: 0%; 
+}
+
+.starp
+{
+margin-top: 40%;
+padding-bottom:90px;
+}
+
+.desc
+{
+margin-left: 0%;
+margin-top: 0px;
+}
+
+.logement h2
+{
+margin:0px;
+}
+
+.logement p
+{
+margin: 0px
+}
+
+.card img
+{
+object-fit: cover;
+}
+
+.logement img
+{
+height:150px;
+width:100%;
+border-top-left-radius: 31px;
+border-top-right-radius: 31px;
+}
+ 
+.logementpop img
+{
+width: 40%;
+height: 100%;
+border-top-left-radius: 31px;
+border-bottom-left-radius: 31px;
+}
+
+.imgregul
+{
+max-height:230px; 
+}
+
+.hebergements__populaires .fa-star
+{
+color: blue;
+}
+
+.fa-star
+{
+color: blue;
+padding-top: 1.5%;
+}
+
+.fas fa-chart-line
+{
+margin-right: 25px;
+}
+
+#activités
+{
+display: flex;
+justify-content: space-between;
+flex-flow: wrap;
+}
+
+.activitédiv
+{
+display: flex;
+flex-flow: wrap;
+justify-content: space-around;
+width: auto;
+border-radius: 31px;    
+height: auto;
+}
+
+.activitédiv h2
+{
+margin-left: 1.5%;
+}
+
+.h2t
+{
+width: 100%;
+height:3%;
+}
+
+.align
+{
+display: flex;
+flex-flow: wrap;
+justify-content: space-around;
+width: 25%;   
+height: 600px;
+margin: 0px;
+}
+
+#activités img
+{
+display: flex;
+border-top-left-radius: 31px;
+border-top-right-radius: 31px;
+width: 100%;
+object-fit: cover;
+}
+
+.actil1
+{
+width: 95%;
+height:100%;
+}
+
+.actil2
+{
+width: 95%;
+height:55%;
+}
+
+.actil3
+{
+height:40%;
+width:95%;
+}
+
+.actil4
+{
+width: 95%;
+height:100%;
+}
+
+.actil5
+{
+width: 95%;
+height:47.5%;  
+}
+
+.actil6
+{
+margin-top: 7.5%;
+width: 95%;
+height:47.5%;
+}
+
+.actig
+{
+border-radius: 31px;
+-webkit-box-shadow: 1px 1px 5px 0px black;
+-moz-box-shadow: 1px 1px 5px 0px black;
+box-shadow: 1px 1px 5px 0px black;
+position: relative;
+justify-content: space-between;
+}
+
+.acti1 img
+{
+min-height: 89%;
+}
+
+.acti1
+{
+width: 100%;
+height:100%;
+margin-top: 5%
+}
+
+.acti2
+{
+width: 100%;
+height:100%;
+margin-top: 5%;
+}
+
+.acti2 img
+{
+min-height: 75%;
+max-height: 75%;
+}
+
+.acti3
+{
+height:100%;
+width:100%;
+margin-top: 7.5%;
+}
+
+.acti3 img
+{
+max-height:71%; 
+}
+
+.acti4
+{
+width: 100%;
+height:100%;
+margin-top: 5%;
+}
+
+.acti4 img
+{
+min-height: 89%;
+}
+
+.acti5
+{
+width: 100%;
+height:100%;
+margin-top:5%;       
+}
+
+.acti5 img
+{
+max-height: 80%;
+}
+
+.acti6
+{
+margin-top: 7.5%;
+width: 100%;
+height:100%;
+margin-bottom: 5%;
+}
+
+.acti6 img
+{
+max-height: 75%;
+}
+
+.footdiv
+{
+background: #F2F2F2;
+display: flex;
+flex-flow: wrap;
+width: 100%;  
+height: auto;
+padding-bottom: 2.5%;
+}
+
+.fdiv
+{
+width:33%;
+text-align: left;
+display: flex;
+flex-flow: wrap;
+}
+
+.ldiv
+{
+display:flex;
+flex-flow: column;
+align-items: left;
+}
+
+.circle
+{
+border-radius: 50%;
+width: 45px;
+height: 45px;
+background-color:#DEEBFF;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.fa-money-bill-wave
+{
+color: #0065FC;
+font-size: 1.4em;  
+}
+
+.fa-child
+{
+color: #0065FC;
+font-size: 1.4em; 
+}
+
+.fa-heart
+{
+color: #0065FC;
+font-size: 1.4em;  
+}
+
+.fa-dog
+{
+color: #0065FC;
+font-size: 1.4em; 
+}
+
+.fa-chart-line
+{
+margin-right: 4%;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+.circlep
+{
+border-radius: 50%;
+width: 25px;
+height: 25px;
+background-color:#DEEBFF;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.divfooter
+{
+margin-top: 100px;
+}
